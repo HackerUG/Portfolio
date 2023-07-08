@@ -1,0 +1,135 @@
+body {
+/*	#FFC300 --- Gold color*/
+	background-color: #0a0a0a;
+}
+nav {
+	height: 100px;
+	background-color: #FFD700;
+	display: flex;
+	justify-content: space-around;
+	width: 	100%;
+	align-items: center;
+}
+.web {
+	width: 40%;
+	padding-left: 20px;
+}
+.menu {
+	width: 30%;
+	display: inline-flex;
+	justify-content: space-around;
+	align-items: center;
+
+}
+.menu a{
+	text-decoration: none;
+	color: #0a0a0a;
+	display: inline-block;
+	text-transform: uppercase;
+	font-weight: bold;
+	position: relative;
+}
+.menu a:before {
+	content:"";
+	position: absolute;
+	left: 0;
+	top: 	100%;
+	width: 0;
+	height: 5px;
+	background-color: #000;
+	transition: all 0.5s linear;
+
+}
+.menu a:hover:before {
+	width: 100%;
+}
+.about {
+	display: flex;
+	background-size: cover;
+	background-position: center;
+	align-items: center;
+	padding: 0 10%;
+}
+.about-content {
+	max-width: 600px;	
+}
+.about-content h2 {
+	font-weight: 700;
+}
+.about-content h1 {
+	position: relative;
+	font-size: 56px;
+	font-weight: 700;
+	line-height: 1.2;
+	}
+.about-content h3 {
+	font-size: 32px;
+	font-weight: 700;
+}
+.about-content p {
+	font-size: 16px;
+	margin: 20px 0 40px;
+}
+.navbar a{
+	text-decoration: none;
+	align-items: center;
+	padding-inline: 10%;
+}
+.btn-box a {
+/*	position: relative;*/
+	margin: 5rem;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	width: 100px;
+	height: 50px;
+	background: #00abf0;
+	border: 2px solid #00abf0;
+	border-radius: 8px;
+	font-size: 19px;
+	color: #081b29;
+	text-decoration: none;
+	font-weight: 600;
+	letter-spacing: 1px;
+	z-index: 1;
+	overflow: hidden;
+	transition: .5s;
+}
+/*.acc a {
+	position: relative;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	width: 40px;
+	height: 40px;
+	background: transparent;
+	border: 2px solid #00abf0;
+	border-radius: 10%;
+	font-size: 20px;
+	color: #00abf0;
+	text-decoration: none;
+}*/
+.skills {
+	padding-left: 200px;
+}
+.skills-f {
+	height:200px;
+	position: center;
+	text-decoration: none;
+
+}
+.skills-b {
+	height: 100px;
+}
+.skills-l {
+	height: 200px;
+}
+.navbar nav{
+font-family: "Arial Bold" , sans-serif;
+	background: #FFD700;
+	position: relative;
+	display: flex;
+	width: 100%;
+	align-items: center;
+	justify-content: space-around;
+}
